@@ -1,4 +1,4 @@
-Now update!Taibei time 2021/2/15 17点23分 17:23
+Now update!Taibei time 2021/5/23 17点23分 17:23
 
 Hi,I'm GDWGH when you see this Readme file i'm 15 year old(maybe),i like Touhou project.
 
