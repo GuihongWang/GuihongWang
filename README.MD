@@ -1,4 +1,4 @@
-Now update!Taibei time 2021/8/22 21点05分 21:05
+Now update!Guangzhou time 2021/9/4 21点45分 21:45
 
 ☣
 5.It's end!
