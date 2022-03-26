@@ -23,4 +23,4 @@ ln -s /usr/bin/resolvectl /usr/local/bin/resolvconf
 ln -sf /lib/systemd/system/systemd-resolved.service /etc/systemd/system/dbus-org.freedesktop.resolve1.service
 echo 部分安装完成 请手动配置/lib/systemd/system/wg-quick@.service	“Environment=WG_ENDPOINT_RESOLUTION_RETRIES=infinity ”这行的下方，插入一行:		Environment=WG_I_PREFER_BUGGY_USERSPACE_TO_POLISHED_KMOD=1
 
-wget 
+wget https://git.gdwgh.workers.dev/GuihongWang/GuihongWang/raw/master/wgcf.sh
