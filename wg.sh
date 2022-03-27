@@ -2,6 +2,7 @@ cd /tmp
 wget https://go.dev/dl/go1.18.linux-amd64.tar.gz
 mkdir /gui
 tar -xzvf go1.18.linux-amd64.tar.gz -C /gui
+rm go1.18.linux-amd64.tar.gz
 cd /gui/go/bin
 ./go version
 ln -s /gui/go/bin/go /usr/local/bin/go
@@ -24,3 +25,4 @@ ln -sf /lib/systemd/system/systemd-resolved.service /etc/systemd/system/dbus-org
 echo 部分安装完成 请手动配置/lib/systemd/system/wg-quick@.service	“Environment=WG_ENDPOINT_RESOLUTION_RETRIES=infinity ”这行的下方，插入一行:		Environment=WG_I_PREFER_BUGGY_USERSPACE_TO_POLISHED_KMOD=1
 
 wget https://git.gdwgh.workers.dev/GuihongWang/GuihongWang/raw/master/wgcf.sh
+
