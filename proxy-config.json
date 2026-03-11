@@ -1,0 +1,14 @@
+[
+  {
+    "folder": "mysql",
+    "url": "https://repo.mysql.com/"
+  },
+  {
+    "folder": "wine-build",
+    "url": "https://dl.winehq.org/"
+  },
+  {
+    "folder": "ubuntu",
+    "url": "http://archive.ubuntu.com/ubuntu/"
+  }
+]
